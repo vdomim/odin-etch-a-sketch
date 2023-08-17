@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    margin: 2rem;
+}
+
+section {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-item-hovered {
+    background-color: black;
+}
+
+.buttons {
+    padding: 2rem;
+}
